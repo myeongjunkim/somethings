@@ -2,5 +2,6 @@
 
 
 ## notifications architecture
-![image](https://user-images.githubusercontent.com/82504981/227458018-b7595fbb-4352-4980-84de-bf16ce3c5a2f.png)
+![image](https://user-images.githubusercontent.com/82504981/227863945-1e436209-92e4-4478-b05c-42f220924c1a.png)
+
 
