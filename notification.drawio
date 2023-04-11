@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T06:58:20.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="-R1zRro40ePzOsWtXMdb" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:12:34.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MpQOWhPKJ27g139wVLrs" version="21.1.4" type="github">
   <diagram id="kS4wOgJoJpctDWW6DtEb" name="페이지-1">
-    <mxGraphModel dx="1195" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,10 +150,10 @@
         <mxCell id="n5KtZQD_1HHvi992WCK9-8" value="check&lt;br&gt;published" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="267" y="498.94000000000005" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0CbeLbWnWoLKqLyISxYu-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- create history&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- eventStore(game).published = True&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- create notification&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- create eventStore(notification)&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;---&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- produce topic: [&lt;b&gt;notification&lt;/b&gt;]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="0CbeLbWnWoLKqLyISxYu-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- create history&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- eventStore(game).published = True&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- create notification&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- create eventStore(notification)&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;---&lt;/div&gt;&lt;div style=&quot;font-size: x-small;&quot;&gt;- produce topic: [&lt;b&gt;notification&lt;/b&gt;]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="353" y="239" width="195" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0CbeLbWnWoLKqLyISxYu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=6;" edge="1" parent="1">
+        <mxCell id="0CbeLbWnWoLKqLyISxYu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=6;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="657" y="402" as="targetPoint" />
             <Array as="points">
@@ -163,15 +163,15 @@
             <mxPoint x="553" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0CbeLbWnWoLKqLyISxYu-3" value="EventMessage&lt;br&gt;[&lt;b&gt;notification&lt;/b&gt;]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontFamily=Helvetica;" vertex="1" connectable="0" parent="0CbeLbWnWoLKqLyISxYu-2">
+        <mxCell id="0CbeLbWnWoLKqLyISxYu-3" value="EventMessage&lt;br&gt;[&lt;b&gt;notification&lt;/b&gt;]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontFamily=Helvetica;" parent="0CbeLbWnWoLKqLyISxYu-2" vertex="1" connectable="0">
           <mxGeometry x="-0.3303" y="-1" relative="1" as="geometry">
             <mxPoint x="3" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0CbeLbWnWoLKqLyISxYu-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&amp;lt;&lt;b&gt;game &lt;/b&gt;worker (main)&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0CbeLbWnWoLKqLyISxYu-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&amp;lt;&lt;b&gt;game &lt;/b&gt;worker (main)&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="353" y="220" width="112" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="0CbeLbWnWoLKqLyISxYu-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="0CbeLbWnWoLKqLyISxYu-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="320" y="186" as="sourcePoint" />
             <mxPoint x="346" y="280" as="targetPoint" />
@@ -179,6 +179,90 @@
               <mxPoint x="320" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-1" value="&lt;p&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;EventMessage&lt;br&gt;[&lt;b style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(251, 251, 251); font-size: x-small;&quot;&gt;customer_&lt;br&gt;service&lt;/b&gt;]&lt;/font&gt;&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-2">
+          <mxGeometry x="0.1009" y="-9" relative="1" as="geometry">
+            <mxPoint x="348" y="754" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-2" value="&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; text-align: center;&quot;&gt;account&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;&amp;nbsp;domain logic&lt;br&gt;- create &lt;b&gt;eventStore&lt;br&gt;(customer_service)&lt;/b&gt;&lt;br&gt;---&lt;br&gt;- produce topic: [&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: x-small;&quot;&gt;customer_service&lt;/b&gt;]&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="89" y="701" width="152" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;lt;main server -&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color); font-size: x-small; text-align: left;&quot;&gt;customer_service&amp;nbsp;&lt;/b&gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="681" width="163" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&amp;lt;&lt;b style=&quot;border-color: var(--border-color); text-align: left; font-size: x-small;&quot;&gt;&amp;nbsp;customer_service&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;worker&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="366" y="687" width="104" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-6" value="&lt;font size=&quot;1&quot;&gt;&lt;div style=&quot;&quot;&gt;- create history&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- eventStore(customer_service).published&lt;br&gt;&amp;nbsp;= True&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;- create notification&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;div style=&quot;&quot;&gt;- create eventStore(notification)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;---&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- produce topic: [&lt;b&gt;notification&lt;/b&gt;]&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="353" y="707" width="194" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=6;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="291.2413793103449" y="737.4827586206898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=6;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="577.6551724137933" y="684.1034482758621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-9" value="check&lt;br&gt;published" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="266" y="659" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659" y="442" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="659" y="759" />
+            </Array>
+            <mxPoint x="555" y="755" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-11" value="EventMessage&lt;br&gt;[&lt;b&gt;notification&lt;/b&gt;]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontFamily=Helvetica;" vertex="1" connectable="0" parent="8nb21TrZ33kqRCniUgmC-10">
+          <mxGeometry x="-0.483" relative="1" as="geometry">
+            <mxPoint x="-14" y="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-12" value="&lt;p&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;EventMessage&lt;br&gt;[&lt;b style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(251, 251, 251); font-size: x-small;&quot;&gt;customer_&lt;br&gt;service&lt;/b&gt;]&lt;/font&gt;&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-13">
+          <mxGeometry x="0.1009" y="-9" relative="1" as="geometry">
+            <mxPoint x="348" y="925" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-13" value="&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; text-align: center;&quot;&gt;account&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;&amp;nbsp;domain logic&lt;br&gt;- create &lt;b&gt;eventStore(notice)&lt;/b&gt;&lt;br&gt;---&lt;br&gt;- produce topic: [&lt;b&gt;notice&lt;/b&gt;&lt;/span&gt;]&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="89" y="890.5" width="152" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-14" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;lt;main server - notice&lt;b style=&quot;border-color: var(--border-color); font-size: x-small; text-align: left;&quot;&gt;&amp;nbsp;&lt;/b&gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="68" y="866" width="163" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-15" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&amp;lt;&lt;b style=&quot;border-color: var(--border-color); text-align: left; font-size: x-small;&quot;&gt;&amp;nbsp;notice&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;worker&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="366" y="858" width="104" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-16" value="&lt;font size=&quot;1&quot;&gt;&lt;div style=&quot;&quot;&gt;- create history&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- eventStore(notice).published&amp;nbsp;= True&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;- create notification&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;div style=&quot;&quot;&gt;- create eventStore(notification)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;---&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- produce topic: [&lt;b&gt;notification&lt;/b&gt;]&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="353" y="878" width="194" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=6;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="291.2413793103449" y="908.4827586206898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=6;" edge="1" parent="1" source="8nb21TrZ33kqRCniUgmC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="577.6551724137933" y="855.1034482758621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-19" value="check&lt;br&gt;published" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="266" y="830" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8nb21TrZ33kqRCniUgmC-20" value="EventMessage&lt;br&gt;[&lt;b&gt;notification&lt;/b&gt;]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontFamily=Helvetica;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640.6896551724133" y="855.0344827586207" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
